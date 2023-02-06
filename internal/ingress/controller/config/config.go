@@ -841,7 +841,7 @@ func NewDefault() Configuration {
 		GenerateRequestID:                true,
 		HTTP2MaxFieldSize:                "4k",
 		HTTP2MaxHeaderSize:               "16k",
-		HTTP2MaxRequests:                 1000,
+		HTTP2MaxRequests:                 2000,
 		HTTP2MaxConcurrentStreams:        128,
 		HTTPRedirectCode:                 308,
 		HSTS:                             true,
